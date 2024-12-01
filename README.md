@@ -1,3 +1,3 @@
 # Advent of Code
 
-This solution to Advent of code 2022 in Golang
+This solution to Advent of code 2024 in Scala
