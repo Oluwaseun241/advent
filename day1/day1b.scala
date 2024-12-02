@@ -22,9 +22,9 @@ import scala.io.Source
     (parts(0), parts(1))
   }
 
-  var lhSide = input.map(_._1).sorted
-  var rhSide = input.map(_._2).sorted
-
+  var lhSide = input.map(_._1)
+  var rhSide = input.map(_._2)
+  
   // calculate similarity score
   val similarity = lhSide.map { left  =>
     val count = rhSide.count(_ == left)
